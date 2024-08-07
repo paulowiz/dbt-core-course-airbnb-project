@@ -1,7 +1,10 @@
-{% docs dim_listing_cleansed__minimum_nights %}
+{% docs __overview__ %}
+# Airbnb pipeline
 
-Minimum number of nights required to rent this property.
-Keep in mind that old listings might have `minimum_nights` set
-to 0 in the source tables. Our cleansing algorithm updates this to `1`.
+Hey Welcome to our Airbnb pipeline documentation
 
-{% enddocs %}∂
+Here is ther schema of our input data:
+
+![input schema](assets/input_schema.png)
+
+{% enddocs %}
